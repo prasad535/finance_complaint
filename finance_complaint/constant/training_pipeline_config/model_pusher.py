@@ -1,0 +1,1 @@
+MODEL_PUSHER_MODEL_NAME: str = "finance-complaint-estimator"
