@@ -2,7 +2,7 @@ from finance_complaint.logger import logger
 from finance_complaint.exception import FinanceException
 
 from finance_complaint.entity.config_entity import DataIngestionConfig
-from finance_complaint.entity.metadata_entity import DataIngestionMetaData, get_metadata_info
+from finance_complaint.entity.metadata_entity import DataIngestionMetaData
 
 from finance_complaint.constant import TIMESTAMP
 from finance_complaint.constant.training_pipeline_config import *

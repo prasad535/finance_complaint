@@ -2,7 +2,6 @@ import os, sys
 from finance_complaint.logger import logger
 from finance_complaint.exception import FinanceException
 from finance_complaint.utils import read_yaml_file, write_yaml_file
-
 from collections import namedtuple
 from dataclasses import dataclass
 
@@ -11,9 +10,9 @@ from dataclasses import dataclass
 #     to_date: str
 #     data_file_path: str
 
-DataIngestionMetaDataInfo = namedtuble("DataIngestionMetaDataInfo", ["from_date", "to_date", "data_file_path"])
+DataIngestionMetaDataInfo = namedtuple("DataIngestionMetaDataInfo", ["from_date", "to_date", "data_file_path"])
 
-class DataIngestionMetadata:
+class DataIngestionMetaData:
 
     def __init__(self, metadata_file_path: str):
         self.metadata_file_path = metadata_file_path

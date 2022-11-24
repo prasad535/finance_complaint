@@ -1,4 +1,4 @@
-import logger
+import logging
 from datetime import datetime
 import pandas as pd
 import os, sys
